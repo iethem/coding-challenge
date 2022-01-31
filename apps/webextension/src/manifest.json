@@ -1,0 +1,10 @@
+{
+  "name": "Firebase Auth in Chrome Extension Sample",
+  "description": "This sample shows how to authorize Firebase in a Chrome extension using a Google account.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "./index.html"
+  },
+  "content_security_policy": "script-src 'self' https://cdn.firebase.com https://apis.google.com https://www.gstatic.com; object-src 'self'"
+}
